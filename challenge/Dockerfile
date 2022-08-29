@@ -1,3 +1,7 @@
+FROM composer as composer
+COPY . ./app
+RUN composer install --ignore-platform-reqs --no-scriptss
+
 FROM php:8.1.1-fpm
 
 # Arguments
