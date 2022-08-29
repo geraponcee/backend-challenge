@@ -17,10 +17,10 @@
 
 3) Iniciar bash a parte y ejecutar seeds:
 
-### docker-compose exec app php artisan db:seed --class=owners
+### `docker-compose exec app php artisan db:seed --class=owners`
 
-### docker-compose exec app php artisan db:seed --class=services
+### `docker-compose exec app php artisan db:seed --class=services`
 
-### docker-compose exec app php artisan db:seed --class=boardings_types
+### `docker-compose exec app php artisan db:seed --class=boardings_types`
 
 Ingresar a [http://localhost](http://localhost)
