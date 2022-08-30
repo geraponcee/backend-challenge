@@ -17,6 +17,8 @@
 
 3) Iniciar bash a parte y ejecutar seeds:
 
+### `docker-compose exec app php artisan migrate`
+
 ### `docker-compose exec app php artisan db:seed --class=owners`
 
 ### `docker-compose exec app php artisan db:seed --class=services`
